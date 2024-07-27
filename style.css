@@ -1,0 +1,88 @@
+@font-face {
+    font-family: "Galderglynn";
+    src: url("./Fonts/galderglynn titling lt.otf");
+}
+
+body {   
+    background: #0D3B70ff;
+    font-family: "Galderglynn", sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 15px;
+    height: 100vh;
+}
+
+#table-container {
+    background: #fffb;
+    width: 95%;
+    max-height: calc(89% - .8rem);
+    padding: 20px;
+    border-radius: .6rem;
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(10px);
+    text-align: center;
+    margin: .8rem auto;
+    overflow: auto;
+}
+
+table {
+    width: 80%;
+    margin: 0 auto;
+    border-collapse: separate; 
+    border-spacing: 0; 
+    border-radius: .6rem;
+    overflow: hidden; 
+}
+
+th, td {
+    padding: 1rem;
+}
+
+th {
+    background-color: #f4f4f4;
+}
+
+tbody {
+    background-color: #d1ded1fe;
+}
+
+h1 {
+    color: #fff;
+    margin: 8px 0;
+    text-align: center;
+}
+
+button {
+    background: rgb(26, 100, 185);
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 300px;
+    font-size: 15px;
+}
+
+button:hover {
+    background: #A2B4C8ff;
+}
+
+table tr:first-child th:first-child {
+    border-top-left-radius: .6rem;
+}
+
+table tr:first-child th:last-child {
+    border-top-right-radius: .6rem;
+}
+
+table tr:last-child td:first-child {
+    border-bottom-left-radius: .6rem;
+}
+
+table tr:last-child td:last-child {
+    border-bottom-right-radius: .6rem;
+}

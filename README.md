@@ -36,3 +36,5 @@ To Run the Front End Application:
 3. Download JSON - It will initiate a download file called boredapi.json which contains the data displayed in the table in JSON format.
 4. Download CSV - It will initiate a download file called boredapi.csv which contains the data displayed in the table in CSV format.
 5. Print to Console - It will print the data displayed to the browser's console.
+
+Should the table display "N/A", it means that the API URL is at request limit.

@@ -19,6 +19,15 @@ I started working on the HTML structure so that I can setup the buttons, table, 
 
 Lastly, the design of the webpage was implemented through CSS to enhance the user experience and to display the data with clarity.
 
+To inspect the source codes for the webpage:
+FRONT END:
+index.html - HTML Source Code
+style.css - CSS Source Code
+
+BACK END:
+script.js - JavaScript Source Code
+server.js - JavaScript Source Code
+
 To access the code using GitHub, the link shared with you allows you to view my Git Repository and download the zip file so that you can open the folder in Visual Studio Code and install the dependencies needed.
 
 To Run the Front End Application:

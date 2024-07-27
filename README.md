@@ -20,3 +20,10 @@ I started working on the HTML structure so that I can setup the buttons, table, 
 Lastly, the design of the webpage was implemented through CSS to enhance the user experience and to display the data with clarity.
 
 To access the code using GitHub, the link shared with you allows you to view my Git Repository and download the zip file so that you can open the folder in Visual Studio Code and install the dependencies needed.
+
+To Run the Front End Application:
+1. The webpage will automatically fetch 15 data from the API URL.
+2. 3 Buttons are available: Download JSON, Download CSV, and Print to Console.
+3. Download JSON - It will initiate a download file called boredapi.json which contains the data displayed in the table in JSON format.
+4. Download CSV - It will initiate a download file called boredapi.csv which contains the data displayed in the table in CSV format.
+5. Print to Console - It will print the data displayed to the browser's console.
